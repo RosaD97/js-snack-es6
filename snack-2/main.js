@@ -47,19 +47,19 @@ const studenti = [
 const nomiStudenti = studenti.map((element) => {
     return (element.name).toUpperCase();
 });
-console.log(nomiStudenti); 
+console.log(nomiStudenti);
 
 // Studenti con voto maggiore di 70
 const votiMagg70 = studenti.filter((element) => {
-    if (element.grades >= 70){
+    if (element.grades >= 70) {
         return true;
     };
 });
 console.log(votiMagg70)
 
 // Studenti con voto maggiore di 70 e id maggiore di 120
-const votiId= studenti.filter((element) => {
-    if (element.grades >= 70 && element.id >= 120){
+const votiId = studenti.filter((element) => {
+    if (element.grades >= 70 && element.id >= 120) {
         return true;
     };
 });
